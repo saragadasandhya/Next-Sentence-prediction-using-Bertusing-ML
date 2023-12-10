@@ -14,4 +14,4 @@ labels
 outputs = model(**inputs, labels=labels)
 outputs.keys()
 outputs.loss
-outputs.loss.item()
+outputs.loss.item() # OUTPUT should be 3.2186455882765586e-06
